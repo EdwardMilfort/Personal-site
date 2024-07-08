@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+    <title>About me</title>
+    <meta http-equiv="Content-Style-Type" content="text/css">
+    <meta name="generator" content="thesitewizard.com's Layout Wizard 4.0.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="all" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="tswnavbar.css">
+  </head>
+  <body>
+    <div id="tswcontainer">
+      <div id="tswheader">
+        <!-- start of header section: insert your logo, etc, here -->&nbsp;
+        <p>&nbsp;<img src="../images/logo.gif" alt="semi circle becomes solar system"></p>
+        <!-- end of header section: insert your logo, etc, above this line --> </div>
+      <div id="tswcontent">
+        <div>
+          <!-- start of content column: insert your content here -->&nbsp;
+          <h1>Welcome</h1>
+          &nbsp;Hi, my name is Edward Milfort and I'm going to tell you a bit
+          about myself. I was born in the Dominican republic but lived most of
+          my life in the states specifically the state of Connecticut in the
+          city of Bridgeport.
+          <p>&nbsp;<img src="../images/bridgeport_seaside_park.jpg" alt="a picture of the gate at seaside park">&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="../images/images.png" alt="picture of the dominican republic"></p>
+          <!-- end of content column: put your content above this line --> </div>
+      </div>
+      <div id="tswsidecol">
+        <div id="tswsideproper">
+          <div id="tswcssbuttons">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="Aboutme.html">About me</a></li>
+              <li><a href="mytown.html">My Town</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div style="clear: both;"></div>
+      <div id="tswfooter">
+        <!-- start of footer section: insert your copyright notice, etc, here -->
+        <p> Placeholder content for the footer: please replace these words with
+          your real content. </p>
+        <!-- end of footer section: insert your copyright notice, etc, above this line -->
+      </div>
+    </div>
+    
+  </body>
+</html>
