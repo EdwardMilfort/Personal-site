@@ -11,15 +11,14 @@
   </head>
   <body>
     <div id="tswcontainer">
-      <div id="tswheader">
-        <!-- start of header section: insert your logo, etc, here -->&nbsp;
+      <div id="tswheader"> <!-- start of header section: insert your logo, etc, here -->&nbsp;
         <p>&nbsp;<img src="images/logo.gif" alt="semi circle becomes solar system"></p>
         <!-- end of header section: insert your logo, etc, above this line --> </div>
       <div id="tswcontent">
         <div id="tswcontproper" style="background-color: #270000;">
           <!-- start of content column: insert your content here -->&nbsp;
           <p> </p>
-          <h1><span style="color: white;">Welcome</span></h1>
+          <h1><span style="color: white;">Home page</span></h1>
           <span style="color: white;"> </span>
           <p><span style="color: white;"> &nbsp;Hi, my name is Edward Milfort
               and I'm going to tell you a bit about myself. I was born in the
@@ -50,6 +49,5 @@
         <!-- end of footer section: insert your copyright notice, etc, above this line -->
       </div>
     </div>
-    
   </body>
 </html>

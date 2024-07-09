@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <title>About me</title>
+    <title>My Town</title>
     <meta http-equiv="Content-Style-Type" content="text/css">
     <meta name="generator" content="thesitewizard.com's Layout Wizard 4.0.0">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,28 +13,27 @@
     <div id="tswcontainer">
       <div id="tswheader">
         <!-- start of header section: insert your logo, etc, here -->&nbsp;
-        <p style="background-color: white;">&nbsp;</p>
-        <!-- end of header section: insert your logo, etc, above this line --><img
+        <p style="background-color: white;">&nbsp;<img src="images/400px-CT_Fairfield_Co_Bridgeport_map.png"
 
-          src="images/images%20%281%29.png" alt="dominican flag" style="width: 503px; height: 223px;">
-      </div>
+            alt="a map of brideports location "></p>
+        <!-- end of header section: insert your logo, etc, above this line --> </div>
       <div id="tswcontent">
         <div id="tswcontproper" style="background-color: #270000;">
           <!-- start of content column: insert your content here -->&nbsp;
           <p> </p>
-          <h1><span style="color: white;">More About Me.<br>
+          <h1><span style="color: white;">Where I live.<br>
             </span></h1>
           <span style="color: white;"> </span>
-          <p><span style="color: white;">&nbsp; As i said before, i was born in
-              the Dominican republic a place that shares half of the island with
-              our next door neighbor Haiti as both are located in the Caribbean.
-              In the DR it his basically summer 24/7 as it rarely rains and even
-              rarer snows, but the island is surrounded by good people who are
-              great to chat with once you get to know them. And like in the
-              picture below, the island is surrounded by beautiful wild life
-              with crystal blue beaches and more.</span></p>
+          <p><span style="color: white;">&nbsp; As of now I live in the United
+              States specifically in the state of Conneticut in the city of
+              Bridgeport. my mother and father has raised me and my brother
+              there for basically my entire life teaching and helping me along
+              in life as I grow and become the person i am today.<br>
+            </span></p>
           <p></p>
-          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="images/images.png" alt="picture of the dominican republic"></p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="images/bridgeport_seaside_park.jpg"
+
+              alt="piture of seaside part bridgeport gate"></p>
           <!-- end of content column: put your content above this line --> </div>
       </div>
       <div id="tswsidecol">
@@ -51,10 +50,10 @@
       <div style="clear: both;"></div>
       <div id="tswfooter">
         <!-- start of footer section: insert your copyright notice, etc, here -->
-        <p> <img src="images/flag_gif.png" alt="a gif of the dominican flag">.
-        </p>
+        <p> . <img src="images/seaside-park.jpg" alt="saside park beach view"></p>
         <!-- end of footer section: insert your copyright notice, etc, above this line -->
       </div>
     </div>
+    
   </body>
 </html>
