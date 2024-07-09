@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>My Town</title>
+    <meta http-equiv="Content-Style-Type" content="text/css">
+    <meta name="generator" content="thesitewizard.com's Layout Wizard 4.0.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="all" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="tswnavbar.css">
+  </head>
+  <body>
+    <div id="tswcontainer">
+      <div id="tswheader">
+        <!-- start of header section: insert your logo, etc, here -->&nbsp;
+        <p style="background-color: white;">&nbsp;<img src="images/400px-CT_Fairfield_Co_Bridgeport_map.png"
+
+            alt="a map of brideports location "></p>
+        <!-- end of header section: insert your logo, etc, above this line --> </div>
+      <div id="tswcontent">
+        <div id="tswcontproper" style="background-color: #270000;">
+          <!-- start of content column: insert your content here -->&nbsp;
+          <p> </p>
+          <h1><span style="color: white;">Where I live.<br>
+            </span></h1>
+          <span style="color: white;"> </span>
+          <p><span style="color: white;">&nbsp; As of now I live in the United
+              States specifically in the state of Conneticut in the city of
+              Bridgeport. my mother and father has raised me and my brother
+              there for basically my entire life teaching and helping me along
+              in life as I grow and become the person i am today.<br>
+            </span></p>
+          <p></p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="images/bridgeport_seaside_park.jpg"
+
+              alt="piture of seaside part bridgeport gate"></p>
+          <!-- end of content column: put your content above this line --> </div>
+      </div>
+      <div id="tswsidecol">
+        <div id="tswsideproper">
+          <div id="tswcssbuttons">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="aboutme.html">More about me</a></li>
+              <li><a href="mytown.html">My Town</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div style="clear: both;"></div>
+      <div id="tswfooter">
+        <!-- start of footer section: insert your copyright notice, etc, here -->
+        <p> . <img src="images/seaside-park.jpg" alt="saside park beach view"></p>
+        <!-- end of footer section: insert your copyright notice, etc, above this line -->
+      </div>
+    </div>
+    
+  </body>
+</html>
