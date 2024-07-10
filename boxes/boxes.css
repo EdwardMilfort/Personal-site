@@ -18,20 +18,19 @@ body {
     outline: 1.5px solid black;
 
     animation-name: robot-dance;
-    animation-duration: 3s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
 }
 
 @keyframes robot-dance {
     0% {
         background-color: red;
-        left: 10%;
-        top: 10%;
+        left: 1%;
+        top: 50%
 
     }
     25% {
-        top: 30%;
+        top: 50%;
     }
     50% {
         background-color: greenyellow;
@@ -39,6 +38,6 @@ body {
     }
     100% {
         background-color: red;
-        right: 10%;
+        left: 50%;
     }
 }
