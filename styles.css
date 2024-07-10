@@ -22,14 +22,14 @@ div#tswsidecol {
   float: right;
   width: 20%;
   color: black;
-  background-color: white;
+  background-color: red;
 }
 
 div#tswcontent {
   float: right;
   width: 80%;
   color: black;
-  background-color: white;
+  background-color: red;
 }
 
 @media only screen and ( max-width : 629px ) {
@@ -49,8 +49,8 @@ div#tswcontproper {
 }
 
 div#tswcontainer {
-  color: white;
-  background-color: white;
+  color: red;
+  background-color: red;
 }
 
 div#tswsideproper, div#tswothersideproper {
@@ -60,11 +60,11 @@ div#tswsideproper, div#tswothersideproper {
 
 div#tswheader {
   color: black;
-  background-color: white;
+  background-color: red;
 }
 
 div#tswfooter {
   color: black;
-  background-color: white;
+  background-color: red;
 }
 
