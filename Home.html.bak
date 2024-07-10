@@ -34,7 +34,7 @@
         <div id="tswsideproper">
           <div id="tswcssbuttons">
             <ul>
-              <li><a href="index.html">Home</a></li>
+              <li><a href="Home.html">Home</a></li>
               <li><a href="aboutme.html">More about me</a></li>
               <li><a href="mytown.html">My Town</a></li>
             </ul>
