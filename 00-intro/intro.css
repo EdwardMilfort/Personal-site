@@ -8,5 +8,6 @@
  */
 
  body {
-  background-color: gray;
+  background-color: lightblue;
+  outline: 10px hidden darkslategrey
  }
