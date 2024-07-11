@@ -11,8 +11,9 @@
   </head>
   <body>
     <div id="tswcontainer">
-      <div id="tswheader"> <!-- start of header section: insert your logo, etc, here -->&nbsp;
-        <p>&nbsp;<img src="images/logo.gif" alt="semi circle becomes solar system"></p>
+      <div id="tswheader" style="background-color: white;">
+        <!-- start of header section: insert your logo, etc, here -->&nbsp;
+        <p style="background-color: white;">&nbsp;<img src="images/logo.gif" alt="semi circle becomes solar system"></p>
         <!-- end of header section: insert your logo, etc, above this line --> </div>
       <div id="tswcontent">
         <div id="tswcontproper" style="background-color: #270000;">
@@ -44,9 +45,35 @@
       <div style="clear: both;"></div>
       <div id="tswfooter">
         <!-- start of footer section: insert your copyright notice, etc, here -->
-        <p> Placeholder content for the footer: please replace these words with
-          your real content. </p>
+        <p> . </p>
         <!-- end of footer section: insert your copyright notice, etc, above this line -->
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHANGE THE SCREENS COLOR BY PRESSIN DIS BUTTON</title>
+    <link rel="stylesheet" href="./intro.css">
+</head>
+<body>
+    <h1>CHANGE THE SCREENS COLOR BY PRESSIN DIS BUTTON!</h1>
+    <h3>~~ Very Interactive ~~</h3>
+
+    <label>Background color: </label>
+    <input id="color-field" value="lightblue">
+    <br>
+    <label>Font size: </label>
+    <input type="number" id="font-size-fied">
+    <br>
+    <button id="click-button" onclick="buttonPress()">Click Me!</button>
+    <p id="text">Hello There!</p>
+    <input type="checkbox" id="checkbox" onchange= "checkboxChange()">
+
+    <script src="Home.js">
+
+    </script>
+</body>
+</html>
       </div>
     </div>
   </body>
