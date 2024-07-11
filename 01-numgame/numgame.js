@@ -24,13 +24,26 @@ function loadGame() {
     secret = Math.floor(secret);
 }
 
+function reloadGame() {
+    numField.min = min;
+    numField.max = max;
+    numField.value = max;
+    secret = Math.random();
+    secret = secret * (max-min+1);
+    secret = secret + min;
+    secret = Math.floor(secret);
+}
+
 function makeGuess() {
     let guess = parseInt(numField.value);
     console.log(`Guess: ${guess}`);
+    let diff = Math.abs(guess - secret);
     if (guess < secret) {
         messageText.innerHTML = `${guess} is too low`;
     } else if (guess > secret) {
         messageText.innerHTML = `${guess} is too high`;
+    } else if (Math.abs(guess - secret)) {
+        messageText.innerHTML = `${guess} is close but not quite`;
     } else if (guess == secret){
         messageText.innerHTML = `${guess}  is correct!`;
         myConfetti({
