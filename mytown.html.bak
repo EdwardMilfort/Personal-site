@@ -13,27 +13,36 @@
     <div id="tswcontainer">
       <div id="tswheader" style="background-color: white;">
         <!-- start of header section: insert your logo, etc, here -->&nbsp;
-        <p style="background-color: white;">&nbsp;<img src="images/400px-CT_Fairfield_Co_Bridgeport_map.png"
-
+        <p style="background-color: white;">&nbsp;<img src="images/400px-CT_Fairfield_Co_Bridgeport_map.png"
             alt="a map of brideports location "></p>
         <!-- end of header section: insert your logo, etc, above this line --> </div>
       <div id="tswcontent">
-        <div id="tswcontproper" style="background-color: #270000;">
+        <div id="tswcontproper" style="background-color: white;">
           <!-- start of content column: insert your content here -->&nbsp;
-          <p> </p>
-          <h1><span style="color: white;">Where I live.<br>
+          <p style="background-color: white;"> </p>
+          <h1 style="background-color: white;"><span style="color: white;">Where
+              I live.<br>
             </span></h1>
           <span style="color: white;"> </span>
-          <p><span style="color: white;">&nbsp; As of now I live in the United
-              States specifically in the state of Conneticut in the city of
-              Bridgeport. my mother and father has raised me and my brother
-              there for basically my entire life teaching and helping me along
-              in life as I grow and become the person i am today.<br>
+          <p style="background-color: white;"><span style="color: white;">&nbsp;
+              As of now I live in the United States specifically in the state of
+              Connecticut in the city of Bridgeport. my mother and father has
+              raised me and my brother there for basically my entire life
+              teaching and helping me along in life as I grow and become the
+              person i am today.<br>
             </span></p>
-          <p></p>
-          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="images/bridgeport_seaside_park.jpg"
-
-              alt="piture of seaside part bridgeport gate"></p>
+          <p style="background-color: white;"></p>
+          <p style="background-color: white;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img
+              src="images/bridgeport_seaside_park.jpg" alt="piture of seaside part bridgeport gate"></p>
+          <p style="background-color: white;"><span style="color: white;">I also
+              go to Achievement First Amidstad high school down in new haven,
+              thought the school years have been rough ever since we got back
+              from covid in 2021 to now Ive still been able to learn grown and
+              become stronger. I've even gotten into the per-college program for
+              basically free thanks to my school covering most of the cost for
+              me and my family so that i could get here<br>
+            </span></p>
+          <img src="images/Achievement-First-Amistad-School-HI-RES.jpg" alt="picture of achivement first amistad high school">
           <!-- end of content column: put your content above this line --> </div>
       </div>
       <div id="tswsidecol">
@@ -52,7 +61,20 @@
         <!-- start of footer section: insert your copyright notice, etc, here -->
         <p> . <img src="images/seaside-park.jpg" alt="saside park beach view"></p>
         <!-- end of footer section: insert your copyright notice, etc, above this line -->
-      </div>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>First Javascript Project</title>
+        <link rel="stylesheet" href="./intro.css">
+        <h1>CHANGE THE SCREENS COLOR BY PRESSIN DIS BUTTON!</h1>
+        <h3>~~ Very Interactive ~~</h3>
+        <label>Background color: </label> <input id="color-field" value="lightblue">
+        <br>
+        <label>Font size: </label> <input id="font-size-fied" type="number"> <br>
+        <button id="click-button" onclick="buttonPress()">Click Me!</button>
+        <p id="text">Hello There!</p>
+        <input id="checkbox" onchange="checkboxChange()" type="checkbox">
+        <script src="mytown.js">
+        
+            </script> </div>
     </div>
   </body>
 </html>

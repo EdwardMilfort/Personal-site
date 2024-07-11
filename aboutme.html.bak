@@ -16,7 +16,7 @@
         <p style="background-color: white;">&nbsp;</p>
         <!-- end of header section: insert your logo, etc, above this line --><img
 
-          src="images/images%20%281%29.png" alt="dominican flag" style="width: 503px; height: 223px;">
+          src="images/images%20%281%29.png" alt="The Dominican flag." style="width: 503px; height: 223px;">
       </div>
       <div id="tswcontent">
         <div id="tswcontproper" style="background-color: #270000;">
@@ -32,9 +32,14 @@
               rarer snows, but the island is surrounded by good people who are
               great to chat with once you get to know them. And like in the
               picture below, the island is surrounded by beautiful wild life
-              with crystal blue beaches and more.</span></p>
+              with crystal blue beaches and more. In also mixed as well as I'm
+              33% </span><span style="color: white;"><span style="color: white;">Dominican</span>
+              33% Haitian and 33% American as eel so in a I rep 3 flags but
+              I'm&nbsp; still more intoned to my Haitian and Dominican sides. I also like music of many varieties from reggeton to hip hop.<br>
+            </span></p>
           <p></p>
-          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="images/images.png" alt="picture of the dominican republic"></p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img src="images/images.png" alt="picture of the dominican republic."></p>
+          <img src="images/download.gif" alt="A gif of Arnold from the show called 'Hey Arnold' Listening to music."></p>
           <!-- end of content column: put your content above this line --> </div>
       </div>
       <div id="tswsidecol">
@@ -51,9 +56,37 @@
       <div style="clear: both;"></div>
       <div id="tswfooter">
         <!-- start of footer section: insert your copyright notice, etc, here -->
-        <p> <img src="images/flag_gif.png" alt="a gif of the dominican flag">.
-        </p>
+        <p> <img src="images/flag_gif.png" alt="a gif of the dominican flag.">.&nbsp;
+          <img src="images/31jzgBdlx4L._AC_.jpg" alt="picture of the haitian flag."></p>
         <!-- end of footer section: insert your copyright notice, etc, above this line -->
+        <!-- background color change code -->
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>First Javascript Project</title>
+            <link rel="stylesheet" href="./intro.css">
+        </head>
+        <body>
+            <h1>CHANGE THE SCREENS COLOR BY PRESSIN DIS BUTTON!</h1>
+            <h3>~~ Very Interactive ~~</h3>
+        
+            <label>Background color: </label>
+            <input id="color-field" value="lightblue">
+            <br>
+            <label>Font size: </label>
+            <input type="number" id="font-size-fied">
+            <br>
+            <button id="click-button" onclick="buttonPress()">Click Me!</button>
+            <p id="text">Hello There!</p>
+            <input type="checkbox" id="checkbox" onchange= "checkboxChange()">
+        
+            <script src="aboutme.js">
+        
+            </script>
+        </body>
+        </html>
       </div>
     </div>
   </body>
