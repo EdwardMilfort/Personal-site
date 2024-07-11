@@ -8,13 +8,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GIVE ME A TITLE!</title>
-    
+    <title>Guess the Number!</title>
+    <link rel="stylesheet" href="./numgame.css">
     <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
 </head>
-<body> <!-- do something onload -->
-    <h1>Number Guessing Game</h1>
+<body onload="loadGame()"> 
+    <h1>Guess the Number!</h1>
 
+    <label>Make a guess: </label>
+    <input id="num-field" type="number">
+
+    <button onclick="makeGuess()">MAKE A GUESS</button>
+
+    <p id="message-text">50 is too low</p>
     <!-- more elements here! -->
+     <script src="./numgame.js"></script>
 </body>
 </html>
