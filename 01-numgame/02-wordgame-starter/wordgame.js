@@ -1,4 +1,5 @@
 let json;
+const body = document.body;
 
 // Returns a random integer between min and max
 //   [min, min+1, min+2, ... , max-1, max]
@@ -21,10 +22,23 @@ function loadGame() {
         .catch(error => {
             console.error('Error fetching words: ', error);
         });
+    randomBackgroundColor();
 }
 
+
+function randomBackgroundColor() {
+    let random = randInt(0,359);
+    let colorString = `hsl(${random}, 100%, 50%)`;
+    body.style.backgroundColor =  colorString;
+}
 // TODO: write function isWord(word)
 
 // For checking word:  json.hasOwnProperty("programming")
 // For array of words: let arr = Object.keys(json)
 // For a random word:  let word = arr[randInt(0, arr.length - 1)];
+const randomWord = document.getElementById("random-word");
+function wordsLoaded() {
+    let arr = Object.keys(json)
+    let randomIndex = randInt(0, arr.length-1);
+    randomWord.innerHtml = arr[randomInndex]
+}
