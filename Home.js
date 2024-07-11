@@ -6,7 +6,7 @@ const checkbox = document.getElementById("checkbox")
 const body = document.body;
 
 function buttonPress() {
-    text.innerHTML = "BANANANANANANANANANANANANANA";
+    text.innerHTML = "Color change so cool! ";
 
     body.style.backgroundColor = colorField.value;
     text.style.fontSize = `${fontSizeField.value}px`;
