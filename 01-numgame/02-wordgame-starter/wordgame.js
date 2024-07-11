@@ -37,8 +37,20 @@ function randomBackgroundColor() {
 // For array of words: let arr = Object.keys(json)
 // For a random word:  let word = arr[randInt(0, arr.length - 1)];
 const randomWord = document.getElementById("random-word");
+let allWords = [];
+let fiveLetterWords = []
 function wordsLoaded() {
-    let arr = Object.keys(json)
-    let randomIndex = randInt(0, arr.length-1);
-    randomWord.innerHtml = arr[randomInndex]
+    allWords = Object.keys(json)
+    let randomIndex = randInt(0, allWords.length-1);
+    randomWord.innerHtml = allWords[randomIndex]
+
+
+    for (let i = 0; i < allWords.length; i++) {
+        let word = allwords[i];
+        if (word.length != 5) continue
+        fiveLetterWords.push(allWords[i]);
+    }
+    
+    randomIndex = randInt(0, fiveLetterWords.length-1);
+    secret = fiveLetterWords
 }
