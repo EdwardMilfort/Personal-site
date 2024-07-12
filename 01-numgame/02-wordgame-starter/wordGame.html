@@ -5,11 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Word Game!</title>
 </head>
-<body onload="loadGame()">
+<body onload = "loadGame()">
     <h1>WORD GAAAAAAAAME</h1>
     <h3>no its not wordle your just DUMB!!!!!</h3>
 
     <p>Today's Random word is <b><span id="random-word">LOADING...</span></b></p>
+
+    <label>Guess a 5-letter word: </label>
+    <input id="guess-field" oninput ="changeGuess()">
+
+    <br>
+    <p id="feedback-text"></p>
+
     <script src="./wordgame.js"></script>
 </body>
 </html>
