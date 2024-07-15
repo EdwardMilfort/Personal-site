@@ -1,24 +1,47 @@
-const colorField = document.getElementById("color-field"); 
-const fontSizeField = document.getElementById("font-size-fied");
-const clickButton = document.getElementById("click-button");
-const text = document.getElementById("text");
-const checkbox = document.getElementById("checkbox")
-const body = document.body;
+const numField = document.getElementById("num-field");
+const messageText = document.getElementById("message-text");
 
-function buttonPress() {
-    text.innerHTML = "Color change so cool!";
+let secret;
+let min= 1;
+let max = 1000;
 
-    body.style.backgroundColor = colorField.value;
-    text.style.fontSize = `${fontSizeField.value}px`;
-    let fail = '${fontSizeField.value}px';
+var myConfetti = confetti.create(null, {
+    resize: true,
+    useWorker: true
+});
+
+function loadGame() {
+    numField.min = min;
+    numField.max = max;
+    numField.value = max;
+    secret = Math.random();
+    secret = secret * (max-min+1);
+    secret = secret + min;
+    secret = Math.floor(secret);
 }
-function checkboxChange() {
-    let checked = checkbox.checked;
-    console.log(`the checkbox has this state: ${checked}`);
 
-    if (checked) {
-        body.style.outlineStyle = "solid";
-    } else {
-        body.style.outlineStyle = "none";
+function reloadGame() {
+    numField.min = min;
+    numField.max = max;
+    numField.value = max;
+    secret = Math.random();
+    secret = secret * (max-min+1);
+    secret = secret + min;
+    secret = Math.floor(secret);
+}
+
+function makeGuess() {
+    let guess = parseInt(numField.value);
+    console.log(`Guess: ${guess}`);
+    if (guess < secret) {
+        messageText.innerHTML = `${guess} is too low`;
+    } else if (guess > secret) {
+        messageText.innerHTML = `${guess} is too high`;
+    } else if (guess == secret){
+        messageText.innerHTML = `${guess}  is correct!`;
+        myConfetti({
+            particleCount: 10000,
+            spread :360
+        })
     }
 }

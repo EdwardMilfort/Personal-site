@@ -62,20 +62,32 @@
           <img src="images/31jzgBdlx4L._AC_.jpg" alt="picture of the haitian flag."></p>
         <!-- end of footer section: insert your copyright notice, etc, above this line -->
         <!-- background color change code -->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>First Javascript Project</title>
-        <link rel="stylesheet" href="./intro.css">
-        <h1>CHANGE THE SCREENS COLOR BY PRESSIN DIS BUTTON!</h1>
-        <h3>~~ Very Interactive ~~</h3>
-        <label>Background color: </label> <input id="color-field" value="lightblue">
-        <br>
-        <label>Font size: </label> <input id="font-size-fied" type="number"> <br>
-        <button id="click-button" onclick="buttonPress()">Click Me!</button>
-        <p id="text">Hello There!</p>
-        <input id="checkbox" onchange="checkboxChange()" type="checkbox">
-        <script src="aboutme.js">
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Guess the Number!</title>
+            <link rel="stylesheet" href="./numgame.css">
+            <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+        </head>
+        <body onload="loadGame()"> 
+            <h1>Guess the Number!</h1>
         
-            </script> </div>
-    </div>
+            <label>Make a guess: </label>
+            <input id="num-field" type="number">
+        
+            <button onclick="makeGuess()">MAKE A GUESS</button>
+        
+            <br>
+            <body onload="reloadGame()">
+            <button onclick="reloadGame()">Reload button</button>
+        
+            <p id="message-text">Guess a number between 1-1000!!!!</p>
+            <!-- more elements here! -->
+             <script src="./aboutme.js"></script>
+        </body>
+        </html>
   </body>
 </html>
