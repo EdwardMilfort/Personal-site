@@ -44,8 +44,8 @@ function makeGuess() {
     } else if (guess == secret){
         messageText.innerHTML = `${guess}  is correct!`;
         myConfetti({
-            particleCount: 1000,
-            spread :160
+            particleCount: 10000,
+            spread :360
         })
     }
 }
