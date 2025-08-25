@@ -1,0 +1,1 @@
+This was my first-ever personal site that I created a year ago during my pre-college trip to WPI. It looks basic, but I did give it my best shot when making it, along with a friend of mine, for a few games, like the click game. I hope y'all like it.
